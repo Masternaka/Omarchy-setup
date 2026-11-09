@@ -20,3 +20,25 @@ hl.monitor({ output = "", mode = "preferred", position = "auto", scale = omarchy
 -- app for a change to reach it.
 local omarchy_gdk_scale = 1
 hl.env("GDK_SCALE", tostring(omarchy_gdk_scale))
+
+omarchy_monitor_panel_settings = false
+
+hl.monitor({
+  output = "desc:Ancor Communications Inc VE228 C2LMQS067753",
+  mode = "1920x1080@60.00",
+  position = "0x0",
+  scale = 1,
+  vrr = 0,
+  sdr_min_luminance = 0.2,
+  sdr_max_luminance = 80,
+})
+
+hl.monitor({
+  output = "desc:Dell Inc. DELL S2309W F906G9251HYL",
+  mode = "1920x1080@60.00",
+  position = "-1920x0",
+  scale = 1,
+  vrr = 0,
+  sdr_min_luminance = 0.2,
+  sdr_max_luminance = 80,
+})

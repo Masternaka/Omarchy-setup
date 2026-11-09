@@ -28,5 +28,18 @@ require("default.hypr.toggles")
 -- Add any other personal Hyprland configuration below.
 -- o.window("qemu", { workspace = "5" })
 
--- Added by hyprmoncfg: its generated monitor rules load last, so nothing before this can override the applied layout.
-do local path = os.getenv("HOME") .. "/.config/hypr/hyprmoncfg-monitors.lua"; local file = io.open(path, "r"); if file then file:close(); dofile(path) end end
+-- Charger les affectations et raccourcis globaux après les valeurs par défaut.
+require("hypr.workspaces")
+
+-- Omarchy's Mirror Display toggle takes effect over the profile while it is on.
+do
+  local state = os.getenv("XDG_STATE_HOME") or (os.getenv("HOME") .. "/.local/state")
+  local path = state .. "/omarchy/toggles/hypr/internal-monitor-mirror.lua"
+  local file = io.open(path, "r")
+  if type(o) == "table" and file then
+    file:close()
+    dofile(path)
+  elseif file then
+    file:close()
+  end
+end
