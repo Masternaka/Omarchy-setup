@@ -1,0 +1,19 @@
+{
+  "overview": "Workspaces",
+  "configure": "Configure displays",
+  "liveOnly": "Showing live workspaces. Start or update hyprmoncfg to include empty assigned workspaces.",
+  "empty": "No independent displays available",
+  "more": "Show all workspaces on %1",
+  "display": "Display %1",
+  "workspace": "Workspace %1 on %2",
+  "close": "Close",
+  "setup.missing": "Install the hyprmoncfg panel for workspace and display settings. It also guides you through installing hyprmoncfg if needed.",
+  "setup.disabled": "Enable the hyprmoncfg panel to configure workspaces and finish setup.",
+  "setup.outdated": "Update the hyprmoncfg panel to use the workspace planner and its setup controls.",
+  "setup.unavailable": "Open hyprmoncfg to finish setup, then reopen this picker.",
+  "setup.unknown": "Could not check the hyprmoncfg panel. Try again.",
+  "setupAction.missing": "Install hyprmoncfg panel",
+  "setupAction.disabled": "Enable hyprmoncfg panel",
+  "setupAction.outdated": "Update hyprmoncfg panel",
+  "setupAction.unknown": "Try again"
+}

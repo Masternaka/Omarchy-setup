@@ -1,0 +1,20 @@
+[
+  {
+    "directory": "crmne.hyprmoncfg",
+    "upstream": "https://github.com/crmne/omarchy-hyprmoncfg.git",
+    "commit": "e2facf13d02d83f1b1d0295b2a771fca7bb19b5f",
+    "modified": false
+  },
+  {
+    "directory": "crmne.hyprmoncfg-workspaces",
+    "upstream": "https://github.com/crmne/omarchy-hyprmoncfg-workspaces",
+    "commit": "8daecd9c532bcf42de1dadb2e9a17d9b32bfb822",
+    "modified": true
+  },
+  {
+    "directory": "omaplug",
+    "upstream": "https://github.com/fross100/omaplug.git",
+    "commit": "ebfec41a28b50bc1ddf352d72d5e1718dfd331cc",
+    "modified": true
+  }
+]
